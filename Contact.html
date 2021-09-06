@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/Contact.css">
+    <script src="assets/Contact.js"></script>
   </head>
   <header>
         <nav class="navbar navbar-light bg-dark">
@@ -28,7 +29,7 @@
 
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <form action="">
+                    <form action="" name="MyForm" onsubmit="return(Validate())" method="POST">
                         <div class="MyForm border bg-light">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
@@ -103,7 +104,7 @@
                             </div>
                             <div class="row p-1 m-2">
                                 <div class="col-sm-12 col-md-12 AlignCenter">
-                                    <input type="button" value="Envoyer">
+                                    <input type="submit" value="Envoyer">
                                 </div>
                             </div>
                         </div>
