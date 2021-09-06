@@ -1,4 +1,8 @@
 html body .AlignCenter {
   text-align: center;
 }
+
+html body .MaxWidth {
+  width: 100%;
+}
 /*# sourceMappingURL=Contact.css.map */
