@@ -1,10 +1,20 @@
 html{
     body{
+        font-family: 'Droid Serif Bold', arial;
         .AlignCenter{
             text-align: center;
         }
+        .AlignRight{
+            text-align: right;
+        }
         .MaxWidth{
             width: 100%;
+        }
+        .nav{
+            a{   
+                text-align: right;
+                color: whitesmoke;
+            }
         }
     }
 }

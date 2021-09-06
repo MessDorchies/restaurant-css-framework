@@ -1,8 +1,21 @@
+html body {
+  font-family: 'Droid Serif Bold', arial;
+}
+
 html body .AlignCenter {
   text-align: center;
 }
 
+html body .AlignRight {
+  text-align: right;
+}
+
 html body .MaxWidth {
   width: 100%;
+}
+
+html body .nav a {
+  text-align: right;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=Contact.css.map */
