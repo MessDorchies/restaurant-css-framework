@@ -12,7 +12,7 @@
     <script src="assets/Contact.js" type="text/javascript"></script>
   </head>
   <header>
-        <nav class="navbar navbar-light">
+        <nav class="nav">
             <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Photo</a></li>
@@ -23,6 +23,17 @@
   </header>
   <body>
         <div class="container">
+            <div class="row p-4">
+                <div class="col-sm-0 col-md-3">
+
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h1>Contactez-nous!</h1>
+                </div>
+                <div class="col-sm-0 col-md-3">
+
+                </div>
+            </div>
             <div class="row">
             
                 <div class="col-sm-0 col-md-3">
@@ -30,17 +41,17 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <form action="" name="MyForm" id="MyForm" onsubmit="SubmitMessage();" method="POST">
-                        <div class="MyForm border bg-light">
+                        <div class="MyForm border">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
-                                    <div class="row p-1 m-2">
+                                    <div class="row p-1 m-2 mt-4">
                                         <div class="col-sm-12 col-md-12">
                                             <label for="firstname">Prénom : </label> 
                                         </div>
                                     </div>
                                     <div class="row p-1 m-2">
                                         <div class="col-sm-12 col-md-12">
-                                            <input type="text" name="firstname" id="firstname" class="MaxWidth" required>
+                                            <input type="text" name="firstname" id="firstname" class="MaxWidth">
                                         </div>
                                     </div>      
                                 </div>
@@ -54,7 +65,7 @@
                                     </div>
                                     <div class="row p-1 m-2">
                                         <div class="col-sm-12 col-md-12">
-                                            <input type="text" name="lastname" id="lastname" class="MaxWidth" required> 
+                                            <input type="text" name="lastname" id="lastname" class="MaxWidth"> 
                                         </div>
                                     </div>  
                                 </div>
@@ -68,7 +79,7 @@
                                     </div>
                                     <div class="row p-1 m-2">
                                         <div class="col-sm-12 col-md-12">
-                                            <input type="text" name="email" id="email" class="MaxWidth" required>
+                                            <input type="text" name="email" id="email" class="MaxWidth">
                                         </div>
                                     </div>    
                                 </div> 

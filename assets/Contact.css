@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "Rosmatika";
+  src: url("font/Rosmatika 400.ttf") format("ttf");
+}
+
 html body {
+  color: whitesmoke;
   background-color: black;
   font-family: 'Droid Serif Bold', arial;
 }
@@ -15,8 +21,25 @@ html body .MaxWidth {
   width: 100%;
 }
 
+html body .nav {
+  padding: 1rem;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-decoration: none;
+  list-style: none;
+  display: list-item inline;
+  color: whitesmoke;
+}
+
 html body .nav a {
   text-align: right;
   color: whitesmoke;
+}
+
+html body h1 {
+  font-family: Rosmatika;
+  color: #a48111;
+  text-align: center;
 }
 /*# sourceMappingURL=Contact.css.map */

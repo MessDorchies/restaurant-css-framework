@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "Rosmatika";
+    src: url("font/Rosmatika 400.ttf") format("ttf");}
 html{
     body{
+        color: whitesmoke;
         background-color: black;
         font-family: 'Droid Serif Bold', arial;
         .AlignCenter{
@@ -12,10 +16,21 @@ html{
             width: 100%;
         }
         .nav{
+            padding: 1rem;
+            justify-content: right;
+            text-decoration: none;
+            list-style: none;
+            display: list-item inline;
+            color: whitesmoke;
             a{   
                 text-align: right;
                 color: whitesmoke;
             }
+        }
+        h1{
+            font-family:Rosmatika;
+            color: rgb(164, 129, 17);
+            text-align: center;
         }
     }
 }
