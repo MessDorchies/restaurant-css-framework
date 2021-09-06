@@ -6,6 +6,15 @@ html{
         color: whitesmoke;
         background-color: black;
         font-family: 'Droid Serif Bold', arial;
+        .GoldenBorder{
+            border-color: #BF8D46;
+            border-style: solid;
+        }
+        .GoldenButton{
+            color:#BF8D46;
+            background-color: black;
+            border-style: none;
+        }
         .AlignCenter{
             text-align: center;
         }
@@ -22,6 +31,9 @@ html{
             list-style: none;
             display: list-item inline;
             color: whitesmoke;
+            img{
+                size: 2rem;
+            }
             a{   
                 text-align: right;
                 color: whitesmoke;
@@ -29,7 +41,7 @@ html{
         }
         h1{
             font-family:Rosmatika;
-            color: rgb(164, 129, 17);
+            color: #BF8D46;
             text-align: center;
         }
     }

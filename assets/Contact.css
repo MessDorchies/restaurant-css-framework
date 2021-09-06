@@ -9,6 +9,17 @@ html body {
   font-family: 'Droid Serif Bold', arial;
 }
 
+html body .GoldenBorder {
+  border-color: #BF8D46;
+  border-style: solid;
+}
+
+html body .GoldenButton {
+  color: #BF8D46;
+  background-color: black;
+  border-style: none;
+}
+
 html body .AlignCenter {
   text-align: center;
 }
@@ -32,6 +43,10 @@ html body .nav {
   color: whitesmoke;
 }
 
+html body .nav img {
+  size: 2rem;
+}
+
 html body .nav a {
   text-align: right;
   color: whitesmoke;
@@ -39,7 +54,7 @@ html body .nav a {
 
 html body h1 {
   font-family: Rosmatika;
-  color: #a48111;
+  color: #BF8D46;
   text-align: center;
 }
 /*# sourceMappingURL=Contact.css.map */
