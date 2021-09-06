@@ -12,6 +12,7 @@ html body {
 html body .GoldenBorder {
   border-color: #BF8D46;
   border-style: solid;
+  border-width: thin;
 }
 
 html body .GoldenButton {
