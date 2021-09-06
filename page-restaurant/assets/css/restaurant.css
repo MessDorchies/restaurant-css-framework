@@ -1,6 +1,65 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* now 1.5rem = 15px */
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
 @font-face {
   font-family: "Rosmatika";
   src: url("/fonts/Rosmatika 400.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Droid";
+  src: url("/fonts/droid-serif-bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "P22 Underground";
+  src: url("/fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf") format("otf") font-weight-thin, url("/fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf") font-weight-medium, url("/fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf") format("otf") font-weight-heavy, url("/fonts/P22 Underground Pro/P22UndergroundCYPro-Demi.otf") format("otf") font-weight-demi, url("/fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf") format("otf") font-weight-book;
 }
 
 body {

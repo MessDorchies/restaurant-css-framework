@@ -1,9 +1,12 @@
-@font-face {
-    font-family: "Rosmatika";
-    src: url("/fonts/Rosmatika 400.ttf") format("ttf");
-}
 
+@import "libs/reset.scss";
+@import "fonts.scss";
 
+%Flex { margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 body{
     background-color: aqua;
