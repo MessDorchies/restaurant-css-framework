@@ -44,8 +44,10 @@ html body .nav {
   color: whitesmoke;
 }
 
-html body .nav img {
-  size: 2rem;
+html body .nav .UnderLine {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #BF8D46;
 }
 
 html body .nav a {

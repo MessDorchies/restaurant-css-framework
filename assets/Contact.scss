@@ -32,8 +32,10 @@ html{
             list-style: none;
             display: list-item inline;
             color: whitesmoke;
-            img{
-                size: 2rem;
+            .UnderLine{
+                border-bottom-style:solid ;
+                border-width: thin;
+                border-color: #BF8D46;
             }
             a{   
                 text-align: right;
