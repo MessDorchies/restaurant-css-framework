@@ -9,10 +9,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/Contact.css">
-    <script src="assets/Contact.js"></script>
+    <script src="assets/Contact.js" type="text/javascript"></script>
   </head>
   <header>
-        <nav class="navbar navbar-light bg-dark">
+        <nav class="navbar navbar-light">
             <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Photo</a></li>
@@ -21,7 +21,7 @@
             </ul> 
         </nav>
   </header>
-  <body class="bg-dark">
+  <body>
         <div class="container">
             <div class="row">
             
@@ -29,7 +29,7 @@
 
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <form action="" name="MyForm" onsubmit="return(Validate())" method="POST">
+                    <form action="" name="MyForm" id="MyForm" onsubmit="SubmitMessage();" method="POST">
                         <div class="MyForm border bg-light">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
@@ -104,7 +104,7 @@
                             </div>
                             <div class="row p-1 m-2">
                                 <div class="col-sm-12 col-md-12 AlignCenter">
-                                    <input type="submit" value="Envoyer">
+                                    <input type="submit" name="submit" value="Envoyer">
                                 </div>
                             </div>
                         </div>

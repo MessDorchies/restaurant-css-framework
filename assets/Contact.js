@@ -1,26 +1,27 @@
+function SubmitMessage(){
+    let flag = Validate();
+    if(flag){
+        alert("Votre message à bien été envoyé!");
+    }
+}
 function Validate(){
-    if(document.MyForm.firstname.Value == ""){
+    if(document.getElementById("firstname").value === ""){
         alert("Veuillez entrez votre prénom");
-        document.MyForm.firstname.focus();
         return false;
     }
-    else if(document.MyForm.lastname.Value == ""){
+    else if(document.getElementById("lastname").value === ""){
         alert("Veuillez entrez votre nom");
-        document.MyForm.lastname.focus();
         return false;
     }
-    else if(document.MyForm.email.Value == ""){
+    else if(document.getElementById("email").value === ""){
         alert("Veuillez entrez votre email");
-        document.MyForm.email.focus();
         return false;
     }
-    else if(document.MyForm.message.Value == ""){
+    else if(document.getElementById("message").value === ""){
         alert("Veuillez entrez votre message");
-        document.MyForm.message.focus();
         return false;
     }
     else{
-        alert("Votre message à bien été envoyé!");
         return true;
     }
 }
