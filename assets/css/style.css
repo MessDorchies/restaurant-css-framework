@@ -2,4 +2,31 @@
   height: 70px;
   width: 70px;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+footer {
+  width: 100%;
+  background-color: #333333;
+  color: #C2D1D2;
+  height: 64px;
+  margin: 0px;
+  padding: 0px;
+}
+}
+.rodape {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color: black;
+}
+.ok{
+  background-color: black;
+  border-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
