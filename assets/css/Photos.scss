@@ -15,7 +15,6 @@
     border-radius: 5px;
     float: left;
 }
-
 .right {
     display: inline-block;
     height: 700px;
@@ -25,13 +24,6 @@
     background-color: gray;
     border-radius: 5px;
     float: right;
-}
-
-footer {
-    height: 70px;
-    background-color: gray;
-    border-radius: 5px;
-    clear: both;
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -45,7 +37,13 @@ body{
     color: black;
 }
 .click{
-
+cursor: pointer;
+}
+.fo{
+    color: rgba(255, 255, 255, 0.527);
+}
+.txt{
+    text-decoration: none;
 }
 .card-body{
     background-color: black;
@@ -57,7 +55,6 @@ body{
     justify-content: center;
     height: 100%;
     a{
-    background-color: white;
     border-radius: 50%;
     }
 }
@@ -76,23 +73,6 @@ body{
     a{
         text-align: right;
         color: whitesmoke;
-    }
-}
-.tfooter {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-}
-.cfooter {
-    float: left;
-    list-style-type: none;
-    margin-top: 10px;
-    padding-left: 825px;
-    color: white;
-.bd{
-    padding-left: 9999px;
-    border-bottom-style:groove ;
-    border-color: #BF8D46;
     }
 }
 footer {
