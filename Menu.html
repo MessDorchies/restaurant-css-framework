@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fr.allfont.net/allfont.css?fonts=droid-serif-bold" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">  
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body> 
+  <header>
+    <div class="container pt-2">
+      <div class="row">
+          <div class="col-sm-2 col-md-3 logoContainer">
+                  <a href="#"><img src="assets/logo-doré.svg" alt="logo" width="70px" height="70px"></a>
+          </div>
+          <div class="col-sm-10 col-md-9">
+              <nav class="nav"> 
+                  <ul class="nav UnderLine">
+                      <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Photo</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Restaurant</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+    </div>
+</header>
+  <main> 
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+         <img src="assets/Burger_main.png">
+      </div>
+      <div class="item">
+        <div style="padding: 50px 0 0 60px;"> 
+        <h2>BURGERS</h2>
+        <ul> 
+          <li>sjdf</li>
+          <li>djfk</li>
+          <li>dfd</li>
+          <li>df</li>
+        </ul>       
+        </div>
+      </div>
+      <div class="item"> 
+      <img src="assets/Burger_main.png">
+      </div>
+      <div class="item"></div>
+  </div>
+ </main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript"> 
+  $('.owl-carousel').owlCarousel({
+     loop:true,
+     nav:true,
+     margin:0,
+     responsive:{
+         0:{
+             items:1
+         },
+         600:{
+             items:2
+         },
+         1000:{
+             items:3
+         }
+     }
+ })
+ </script>
+</body>
+</html>
