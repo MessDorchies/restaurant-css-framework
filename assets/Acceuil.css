@@ -9,28 +9,14 @@ html body {
   font-family: 'Droid Serif Bold', arial;
 }
 
-html body .GoldenBorder {
-  border-color: #BF8D46;
-  border-style: solid;
-  border-width: thin;
-}
-
-html body .GoldenButton {
-  color: #BF8D46;
+html body .bgBlack {
   background-color: black;
-  border-style: none;
 }
 
-html body .AlignCenter {
+html body h1 {
+  font-family: Rosmatika;
+  color: #BF8D46;
   text-align: center;
-}
-
-html body .AlignRight {
-  text-align: right;
-}
-
-html body .MaxWidth {
-  width: 100%;
 }
 
 html body .logoContainer {
@@ -41,6 +27,7 @@ html body .logoContainer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
   height: 100%;
 }
 
@@ -60,14 +47,6 @@ html body .nav {
   color: whitesmoke;
 }
 
-@media only screen and (max-width: 300px) {
-  html body .nav {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 html body .nav .UnderLine {
   border-bottom-style: solid;
   border-width: thin;
@@ -79,9 +58,7 @@ html body .nav a {
   color: whitesmoke;
 }
 
-html body h1 {
-  font-family: Rosmatika;
-  color: #BF8D46;
+html body .alignCenter {
   text-align: center;
 }
-/*# sourceMappingURL=Contact.css.map */
+/*# sourceMappingURL=Acceuil.css.map */
