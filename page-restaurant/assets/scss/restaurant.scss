@@ -1,18 +1,174 @@
 
-@import "libs/reset.scss";
-@import "fonts.scss";
+// @import "libbs/fonts.scss";
+@import "./libs/reset.scss";
 
-%Flex { margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
+:root{
+    --main-color:        rgb(34, 40, 49);
+    --secondary-color:   rgb(45, 64, 89);
+    --accent-color:      rgb(255, 87, 34);
+    --null-color:        rgb(238, 238, 238);
+}
+
+%flex--full-center { 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body{
-    background-color: aqua;
+    background-color: var(--main-color);
+    color: var(--null-color);
+    margin: 0 auto;
+    
+}
+/*===================================== Snap scroll ========================================================*/
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+/*===================================== About ========================================================*/
+
+.about{
+    .container-img{
+        background-color: var(--accent-color);
+        overflow: hidden;
+        max-width: 100%;
+        min-height: 50vh;
+        text-align: center;
+        img{
+            transform: scale(2); 
+        }
+    }
+    
+    .container-story{
+        background-color: var(--null-color); 
+        max-width: 100%;
+        min-height: 50vh;
+    
+        p{  
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            white-space:pre-line;
+            color: black;
+
+            padding: 2rem;
+        }
+    }   
+}
+
+/*===================================== Adresse & map google ========================================================*/
+
+.location{
+    background-color: var(--main-color);
+    margin: 0 auto;
+    max-width: 100vw;
+    min-height: 50vh;
+
+    .map-google{
+        max-width: 100vh;
+        min-height: 50vh;
+        iframe{
+            width: 100%;
+            height: 50vh;
+        } 
+    }
+
+    address{
+        max-width: 100vw;
+        min-height: 50vh;
+        @extend %flex--full-center;
+        margin: 0;
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            font-style: normal;
+            line-height: 3.5rem;
+            white-space:pre-line;
+            color: white;
+        }
+    }
+}
+
+/*===================================== Information pratique ========================================================*/
+
+.informations{
+    background-color: var(--accent-color);
+    max-width: 100%;
+    min-height: fit-content;
+    padding: 5rem;
+
+    .schedules{
+        max-width: 90%;
+        @extend %flex--full-center;
+        
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+        ". ."
+        ". .";
+        
+        gap: 0.5rem;
+        text-align:start;
+        .date--justify-end{
+            text-align:end;
+        }
+        p{
+            margin: 0.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+    .contact{
+        max-width: 100%;
+        margin: 5rem 0;
+        text-align: center;
+        @extend %flex--full-center;
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            font-style: normal;
+            line-height: 3.5rem;
+            white-space:pre-line;
+            color: white;
+
+
+            margin: 0 2rem;
+        }
+
+    }
+
+    .socials{
+        max-width: 100%;
+        @extend %flex--full-center;
+        a{
+            padding: 0 3rem;
+        }
+        
+        img{
+            height: 3rem;
+        }
+    }
 }
 
 
-h1{
-    font-family: "Rosmatika";
-}
+/*===================================== Média querry ========================================================*/
+
+
+
