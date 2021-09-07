@@ -13,10 +13,27 @@ html body .bgBlack {
   background-color: black;
 }
 
+html body .BottomGoldenBorder {
+  border-color: #BF8D46;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+
+html body .LeftGoldenBorder {
+  border-color: #BF8D46;
+  border-left-style: solid;
+  border-width: thin;
+}
+
 html body h1 {
   font-family: Rosmatika;
   color: #BF8D46;
   text-align: center;
+}
+
+html body h2 {
+  font-family: Rosmatika;
+  color: #BF8D46;
 }
 
 html body .logoContainer {
@@ -27,12 +44,9 @@ html body .logoContainer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  height: 100%;
 }
 
 html body .logoContainer a {
-  background-color: white;
   border-radius: 50%;
 }
 
