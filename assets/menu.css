@@ -55,12 +55,7 @@ html body main .owl-carousel {
 
 html body main .owl-carousel .owl-stage {
   height: 540px;
-}
-
-html body main img {
-  width: 400px;
-  height: 350px;
-  border: solid 1px #BF8D46;
+  padding-top: 30px;
 }
 
 html body main ul, html body main ol {
@@ -69,11 +64,31 @@ html body main ul, html body main ol {
 }
 
 html body main .item {
-  height: 450px;
-  margin-top: 10%;
+  border-left: solid 1px #BF8D46;
+  padding: 10px 15px 0px 10px;
 }
 
-html body main .item h2 {
+html body main .item h3 {
   color: #BF8D46;
+  text-align: center;
+}
+
+html body main .item p {
+  font-style: italic;
+}
+
+html body footer p {
+  color: #BF8D46 255, 255, 255, 0.527;
+}
+
+html body footer .txt {
+  text-decoration: none;
+}
+
+html body footer footer {
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+  clear: both;
 }
 /*# sourceMappingURL=menu.css.map */

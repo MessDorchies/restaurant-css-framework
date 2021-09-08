@@ -1,50 +1,33 @@
 @font-face {
-    font-family: "Rosmatika";
-    src: url("fonts/Rosmatika 400.ttf") format("ttf");
+    font-family: Rosmatika;
+    src: url('/assets/fonts/Rosmatika 400.ttf');
 }
 
 @font-face {
-    font-family: "Droid";
-    src: url("fonts/Droid.ttf") format("ttf");
+    font-family: Droid;
+    src: url('/assets/fonts/Droid.ttf');
 }
+
 
 @font-face {
-    font-family: "P22 Underground";
-    src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf")   format("otf") font-weight-thin,
-            url("fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf") font-weight-medium,
-            url("fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf")  format("otf") font-weight-heavy,
-            url("fonts/P22 Underground Pro/P22UndergroundCYPro-Demi.otf")   format("otf") font-weight-demi,
-            url("fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf")   format("otf") font-weight-book;
+    font-family: P22-Underground-Pro-thin;
+    src:    url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Thin.otf");
 }
+@font-face {
+    font-family: P22-Underground-Pro-medium;
+    src:    url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Medium.otf");
+    
+}
+@font-face {
+    font-family: P22-Underground-Pro-heavy;
+    src:    url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Heavy.otf");
 
-
-
-
-
-// Mannière plus longue de l'écrire
-
-// @font-face {
-//     font-family: "P22 Underground";
-//     src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf") format("otf");
-//     font-weight: thin;
-// }
-// @font-face {
-//     font-family: "P22 Underground";
-//     src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf");
-//     font-weight: medium;
-// }
-// @font-face {
-//     font-family: "P22 Underground";
-//     src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf") format("otf");
-//     font-weight: heavy;
-// }
-// @font-face {
-//     font-family: "P22 Underground";
-//     src:    url("/onts/P22- nderground- ro/P22UndergroundCYPro-Demi.otf") format("otf");
-//     font-weight: demi;
-// }
-// @font-face {
-//     font-family: "P22 Underground";
-//     src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf") format("otf");
-//     font-weight: book;
-// }
+}
+@font-face {
+    font-family: P22-Underground-Pro-demi;
+    src:    url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Demi.otf");
+}
+@font-face {
+    font-family: P22-Underground-Pro-book;
+    src:    url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Book.otf");
+}

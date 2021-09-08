@@ -1,5 +1,6 @@
-.imgg{
-    height: 70px;width: 70px;
+
+img{
+    width: auto;
 }
 @font-face {
     font-family: "Open Sans";
@@ -75,9 +76,15 @@ cursor: pointer;
         color: whitesmoke;
     }
 }
+.nav a:hover {
+    color: #BF8D46;
+  }
 footer {
     height: 70px;
     background-color: black;
     border-radius: 5px;
     clear: both;
+    a:hover{
+        color: #BF8D46;
+    }
   }   
