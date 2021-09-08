@@ -72,6 +72,10 @@ html body .nav a {
   color: whitesmoke;
 }
 
+html body .nav a:hover {
+  color: #BF8D46;
+}
+
 html body .alignCenter {
   text-align: center;
 }
