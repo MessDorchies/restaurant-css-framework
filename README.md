@@ -14,13 +14,13 @@ Create in 3 days a responsive website composed of 5 pages: welcome, menu, pictur
 
 ### Links pages projet Tkls food 
 
-> Page Welcome / contact : Mess
+> Page Welcome / contact : [MessDorchies](https://github.com/MessDorchies)
 > 
-> Page Menu : Sarah
+> Page Menu : [Sarah Dade](https://github.com/SarahDade)
 > 
-> Page Pictures : William Loey
+> Page Pictures : [William Loey](https://github.com/WilliamLoey)
 > 
-> Page About us : Sylvain
+> Page About us : [Sylvain Valvassori](https://github.com/Sylvain-Valvassori)
 
 
 ## Credits
