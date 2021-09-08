@@ -27,7 +27,7 @@ Create in 3 days a responsive website composed of 5 pages: welcome, menu, pictur
 
 Credits image et nom (avec accord des propriétaires) : 
 
-[link Facebook](https://www.facebook.com/pages/category/Fast-Food-Restaurant/TKLS-FOOD-BurgersBeers-110805740802476/)
+[Link Facebook](https://www.facebook.com/pages/category/Fast-Food-Restaurant/TKLS-FOOD-BurgersBeers-110805740802476/)
 
 [Link instagram](https://www.instagram.com/tkls_food/)
 
