@@ -76,4 +76,19 @@ html body main .item h3 {
 html body main .item p {
   font-style: italic;
 }
+
+html body footer p {
+  color: #BF8D46 255, 255, 255, 0.527;
+}
+
+html body footer .txt {
+  text-decoration: none;
+}
+
+html body footer footer {
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+  clear: both;
+}
 /*# sourceMappingURL=menu.css.map */

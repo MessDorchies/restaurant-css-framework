@@ -34,9 +34,12 @@ html {
                 border-width: thin;
                 border-color: #BF8D46;
             }
-            a{
+            a {
                 text-align: right;
                 color: whitesmoke;
+                :hover{
+                    color:#BF8D46;
+                }
              }
         }              
      }
@@ -63,8 +66,9 @@ html {
                 }
             p {
             font-style: italic;
-            }
+             }
             }
         }
     } 
 }
+
