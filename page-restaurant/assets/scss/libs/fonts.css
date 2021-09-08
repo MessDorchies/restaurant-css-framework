@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Rosmatika";
+  src: url("fonts/Rosmatika 400.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Droid";
+  src: url("fonts/Droid.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "P22 Underground";
+  src: url("fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf") format("otf") font-weight-thin, url("fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf") font-weight-medium, url("fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf") format("otf") font-weight-heavy, url("fonts/P22 Underground Pro/P22UndergroundCYPro-Demi.otf") format("otf") font-weight-demi, url("fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf") format("otf") font-weight-book;
+}
+/*# sourceMappingURL=fonts.css.map */
