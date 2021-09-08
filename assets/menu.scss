@@ -34,41 +34,41 @@ html {
                 border-width: thin;
                 border-color: #BF8D46;
             }
-            a{
+            a {
                 text-align: right;
                 color: whitesmoke;
+                :hover{
+                    color:#BF8D46;
+                }
              }
         }              
      }
          main { 
-      //  .owl-stage{ //
-     //   height: 70vh;//
-     //   } //
         .owl-carousel {
         height: 534px;
         width: auto;
-
-             .owl-stage {
+            .owl-stage {
             height: 540px;
+            padding-top: 30px;
             }
-        }
-         img {
-        width: 400px;
-        height: 350px;
-        border: solid 1px #BF8D46;
         }
             ul,ol {
         list-style-type: none;
         color: white;
+        
             }   
             .item {
-       // display: flex;//
-            height: 450px;
-            margin-top: 10%;
-             h2 {
+            border-left: solid 1px #BF8D46;
+            padding: 10px 15px 0px 10px;
+            h3 {
              color: #BF8D46;
+             text-align:center;
                 }
+            p {
+            font-style: italic;
+             }
             }
         }
     } 
 }
+
