@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Rosmatika";
+    src: url("font/Rosmatika 400.ttf") format("ttf");}
+html{
+    body{
+        .bgBlack{
+            background-color: black;
+        }
+        color: whitesmoke;
+        background-color: black;
+        font-family: 'Droid Serif Bold', arial;
+        .BottomGoldenBorder{
+            border-color: #BF8D46;
+            border-bottom-style: solid;
+            border-width: thin;
+        }
+        .LeftGoldenBorder{
+            border-color: #BF8D46;
+            border-left-style: solid;
+            border-width: thin;
+        }
+        h1{
+            font-family:Rosmatika;
+            color: #BF8D46;
+            text-align: center;
+        }
+        h2{
+            font-family:Rosmatika;
+            color: #BF8D46;
+        }
+        .logoContainer{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            a{
+            border-radius: 50%;
+            }
+        }
+        .nav{
+            justify-content: right;
+            padding: 1rem;
+            text-decoration: none;
+            list-style: none;
+            display: list-item inline;
+            color: whitesmoke;
+            .UnderLine{
+                border-bottom-style:solid ;
+                border-width: thin;
+                border-color: #BF8D46;
+            }
+            a{   
+                text-align: right;
+                color: whitesmoke;
+            }
+        }
+        .alignCenter{
+            text-align: center;
+        }
+        footer {
+            height: 70px;
+            background-color: black;
+            border-radius: 5px;
+            clear: both;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .txt{
+                text-decoration: none;
+                color: white;
+            }
+            .fo{
+                color: #BF8D46;
+            }
+          }
+    }
+}

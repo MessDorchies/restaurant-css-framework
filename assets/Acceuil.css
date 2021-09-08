@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Rosmatika";
+  src: url("font/Rosmatika 400.ttf") format("ttf");
+}
+
+html body {
+  color: whitesmoke;
+  background-color: black;
+  font-family: 'Droid Serif Bold', arial;
+}
+
+html body .bgBlack {
+  background-color: black;
+}
+
+html body .BottomGoldenBorder {
+  border-color: #BF8D46;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+
+html body .LeftGoldenBorder {
+  border-color: #BF8D46;
+  border-left-style: solid;
+  border-width: thin;
+}
+
+html body h1 {
+  font-family: Rosmatika;
+  color: #BF8D46;
+  text-align: center;
+}
+
+html body h2 {
+  font-family: Rosmatika;
+  color: #BF8D46;
+}
+
+html body .logoContainer {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .logoContainer a {
+  border-radius: 50%;
+}
+
+html body .nav {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: list-item inline;
+  color: whitesmoke;
+}
+
+html body .nav .UnderLine {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #BF8D46;
+}
+
+html body .nav a {
+  text-align: right;
+  color: whitesmoke;
+}
+
+html body .alignCenter {
+  text-align: center;
+}
+
+html body footer {
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+  clear: both;
+}
+
+html body footer a {
+  text-decoration: none;
+  color: white;
+}
+
+html body footer .txt {
+  text-decoration: none;
+  color: white;
+}
+
+html body footer .fo {
+  color: #BF8D46;
+}
+/*# sourceMappingURL=Acceuil.css.map */
