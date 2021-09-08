@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Rosmatika";
+    src: url("font/Rosmatika 400.ttf") format("ttf");}
+html{
+    body{
+        color: whitesmoke;
+        background-color: black;
+        font-family: 'Droid Serif Bold', arial;
+        .GoldenBorder{
+            border-color: #BF8D46;
+            border-style: solid;
+            border-width: thin;
+        }
+        .GoldenButton{
+            color:#BF8D46;
+            background-color: black;
+            border-style: none;
+        }
+        .AlignCenter{
+            text-align: center;
+        }
+        .AlignRight{
+            text-align: right;
+        }
+        .MaxWidth{
+            width: 100%;
+        }
+        .logoContainer{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            a{
+            border-radius: 50%;
+            }
+        }
+        .nav{
+            @media only screen and (max-width:300px) {
+                justify-content: center;
+            }
+            justify-content: right;
+            padding: 1rem;
+            text-decoration: none;
+            list-style: none;
+            display: list-item inline;
+            color: whitesmoke;
+            .UnderLine{
+                border-bottom-style:solid ;
+                border-width: thin;
+                border-color: #BF8D46;
+            }
+            a{   
+                text-align: right;
+                color: whitesmoke;
+            }
+            a:hover{
+                color:#BF8D46;
+            }
+        }
+        h1{
+            font-family:Rosmatika;
+            color: #BF8D46;
+            text-align: center;
+        }
+        footer {
+            height: 70px;
+            background-color: black;
+            border-radius: 5px;
+            clear: both;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .txt{
+                text-decoration: none;
+                color: white;
+            }
+            .fo{
+                color: #BF8D46;
+            }
+          }
+    }
+}

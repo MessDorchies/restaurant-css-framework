@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Rosmatika";
+  src: url("font/Rosmatika 400.ttf") format("ttf");
+}
+
+html body {
+  color: whitesmoke;
+  background-color: black;
+  font-family: 'Droid Serif Bold', arial;
+}
+
+html body .GoldenBorder {
+  border-color: #BF8D46;
+  border-style: solid;
+  border-width: thin;
+}
+
+html body .GoldenButton {
+  color: #BF8D46;
+  background-color: black;
+  border-style: none;
+}
+
+html body .AlignCenter {
+  text-align: center;
+}
+
+html body .AlignRight {
+  text-align: right;
+}
+
+html body .MaxWidth {
+  width: 100%;
+}
+
+html body .logoContainer {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+html body .logoContainer a {
+  border-radius: 50%;
+}
+
+html body .nav {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: list-item inline;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 300px) {
+  html body .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+html body .nav .UnderLine {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #BF8D46;
+}
+
+html body .nav a {
+  text-align: right;
+  color: whitesmoke;
+}
+
+html body .nav a:hover {
+  color: #BF8D46;
+}
+
+html body h1 {
+  font-family: Rosmatika;
+  color: #BF8D46;
+  text-align: center;
+}
+
+html body footer {
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+  clear: both;
+}
+
+html body footer a {
+  text-decoration: none;
+  color: white;
+}
+
+html body footer .txt {
+  text-decoration: none;
+  color: white;
+}
+
+html body footer .fo {
+  color: #BF8D46;
+}
+/*# sourceMappingURL=Contact.css.map */

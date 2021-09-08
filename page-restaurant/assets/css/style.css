@@ -1,0 +1,24 @@
+@font-face {
+  font-family: check;
+  src: url("./Allison/Allison-Regular.ttf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro;
+  src: url("/P22-Underground-Pro/P22UndergroundCYPro-Heavy.otf");
+}
+
+.check {
+  font-family: P22-Underground-Pro;
+  font-size: 10rem;
+  color: red;
+}
+
+@font-face {
+  font-family: P22-Underground-Pro;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Heavy.otf");
+}
+
+p {
+  color: blue !important;
+}

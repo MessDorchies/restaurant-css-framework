@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Rosmatika;
+  src: url("/assets/fonts/Rosmatika 400.ttf");
+}
+
+@font-face {
+  font-family: Droid;
+  src: url("/assets/fonts/Droid.ttf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro-thin;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Thin.otf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro-medium;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Medium.otf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro-heavy;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Heavy.otf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro-demi;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Demi.otf");
+}
+
+@font-face {
+  font-family: P22-Underground-Pro-book;
+  src: url("/assets/fonts/P22-Underground-Pro/P22UndergroundCYPro-Book.otf");
+}

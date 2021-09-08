@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,UAAU;EACN,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,qCAAqC,CAAC,aAAa;;;AAG5D,UAAU;EACN,WAAW,EAAE,OAAO;EACpB,GAAG,EAAE,6BAA6B,CAAC,aAAa;;;AAGpD,UAAU;EACN,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAK,oEAAoE,CAAG,aAAa,CAAC,gBAAgB,EACrG,sEAAsE,CAAC,aAAa,CAAC,kBAAkB,EACvG,qEAAqE,CAAE,aAAa,CAAC,iBAAiB,EACtG,oEAAoE,CAAG,aAAa,CAAC,gBAAgB,EACrG,oEAAoE,CAAG,aAAa,CAAC,gBAAgB;;;AAOjH,oCAAoC;AACpC;;;;;;;;;;;;;;;;;;;;;;;;;;EA0BE",
+    "sources": [
+        "../libs/fonts.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}

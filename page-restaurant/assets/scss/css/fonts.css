@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Rosmatika";
+  src: url("assets/fonts/Rosmatika 400.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Droid";
+  src: url("assets/fonts/Droid.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "P22 Underground";
+  src: url("assets/fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf") format("otf") font-weight-thin, url("assets/fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf") font-weight-medium, url("assets/fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf") format("otf") font-weight-heavy, url("assets/fonts/P22 Underground Pro/P22UndergroundCYPro-Demi.otf") format("otf") font-weight-demi, url("assets/fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf") format("otf") font-weight-book;
+}
+
+/*Mannière plus longue de l'écrire*/
+/*
+@font-face {
+    font-family: "P22 Underground";
+    src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Thin.otf") format("otf");
+    font-weight: thin;
+}
+@font-face {
+    font-family: "P22 Underground";
+    src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Medium.otf") format("otf");
+    font-weight: medium;
+}
+@font-face {
+    font-family: "P22 Underground";
+    src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Heavy.otf") format("otf");
+    font-weight: heavy;
+}
+@font-face {
+    font-family: "P22 Underground";
+    src:    url("/onts/P22- nderground- ro/P22UndergroundCYPro-Demi.otf") format("otf");
+    font-weight: demi;
+}
+@font-face {
+    font-family: "P22 Underground";
+    src:    url("fonts/P22 Underground Pro/P22UndergroundCYPro-Book.otf") format("otf");
+    font-weight: book;
+}
+*/
+/*# sourceMappingURL=fonts.css.map */

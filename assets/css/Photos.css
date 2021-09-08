@@ -1,0 +1,124 @@
+img {
+  width: auto;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+.left {
+  display: inline-block;
+  height: 700px;
+  width: 10%;
+  margin-top: 65px;
+  background-color: gray;
+  border-radius: 5px;
+  float: left;
+}
+
+.right {
+  display: inline-block;
+  height: 700px;
+  width: 89%;
+  margin-top: 65px;
+  margin-bottom: 5px;
+  background-color: gray;
+  border-radius: 5px;
+  float: right;
+}
+
+body {
+  background-color: black;
+}
+
+.new {
+  width: 200;
+  height: 100;
+}
+
+.ok {
+  background-color: black;
+  color: black;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.fo {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.txt {
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: black;
+  color: black;
+}
+
+.logoContainer {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.logoContainer a {
+  border-radius: 50%;
+}
+
+.nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: list-item inline;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+.nav .UnderLine {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #BF8D46;
+}
+
+.nav a {
+  text-align: right;
+  color: whitesmoke;
+}
+
+.nav a:hover {
+  color: #BF8D46;
+}
+
+footer {
+  height: 70px;
+  background-color: black;
+  border-radius: 5px;
+  clear: both;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .txt {
+  text-decoration: none;
+  color: white;
+}
+
+footer .fo {
+  color: #BF8D46;
+}
+/*# sourceMappingURL=Photos.css.map */
