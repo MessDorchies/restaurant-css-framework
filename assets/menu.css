@@ -48,6 +48,10 @@ html body header .nav a {
   color: whitesmoke;
 }
 
+html body header .nav a:hover {
+  color: #BF8D46;
+}
+
 html body main .owl-carousel {
   height: 534px;
   width: auto;
@@ -77,18 +81,26 @@ html body main .item p {
   font-style: italic;
 }
 
-html body footer p {
-  color: #BF8D46 255, 255, 255, 0.527;
-}
-
-html body footer .txt {
-  text-decoration: none;
-}
-
-html body footer footer {
+html footer {
+  position: relative;
+  margin-top: 10rem;
   height: 70px;
   background-color: black;
   border-radius: 5px;
   clear: both;
+}
+
+html footer a {
+  text-decoration: none;
+  color: white;
+}
+
+html footer .txt {
+  text-decoration: none;
+  color: white;
+}
+
+html footer .fo {
+  color: #BF8D46;
 }
 /*# sourceMappingURL=menu.css.map */

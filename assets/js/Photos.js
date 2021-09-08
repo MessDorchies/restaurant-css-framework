@@ -1,1 +1,1 @@
-alert("Bienvenue dans notre rubrique photos")
+//alert("Bienvenue dans notre rubrique photos")

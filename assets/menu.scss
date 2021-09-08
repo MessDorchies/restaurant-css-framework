@@ -37,10 +37,11 @@ html {
             a {
                 text-align: right;
                 color: whitesmoke;
-                :hover{
-                    color:#BF8D46;
-                }
+                
              }
+            a:hover{
+                color:#BF8D46;
+            }
         }              
      }
          main { 
@@ -69,6 +70,25 @@ html {
              }
             }
         }
-    } 
+    }
+    footer {
+        position: relative;
+        margin-top: 10rem;
+        height: 70px;
+        background-color: black;
+        border-radius: 5px;
+        clear: both;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .txt{
+            text-decoration: none;
+            color: white;
+        }
+        .fo{
+            color: #BF8D46;
+        }
+      } 
 }
 

@@ -66,6 +66,7 @@ cursor: pointer;
     list-style: none;
     display: list-item inline;
     color: whitesmoke;
+    z-index: 2;
     .UnderLine{
         border-bottom-style:solid ;
         border-width: thin;
@@ -79,12 +80,20 @@ cursor: pointer;
 .nav a:hover {
     color: #BF8D46;
   }
-footer {
+  footer {
     height: 70px;
     background-color: black;
     border-radius: 5px;
     clear: both;
-    a:hover{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .txt{
+        text-decoration: none;
+        color: white;
+    }
+    .fo{
         color: #BF8D46;
     }
-  }   
+  }  
