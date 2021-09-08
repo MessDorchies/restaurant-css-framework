@@ -56,5 +56,22 @@ html{
         .alignCenter{
             text-align: center;
         }
+        footer {
+            height: 70px;
+            background-color: black;
+            border-radius: 5px;
+            clear: both;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .txt{
+                text-decoration: none;
+                color: white;
+            }
+            .fo{
+                color: #BF8D46;
+            }
+          }
     }
 }
