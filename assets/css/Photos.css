@@ -1,6 +1,5 @@
-.imgg {
-  height: 70px;
-  width: 70px;
+img {
+  width: auto;
 }
 
 @font-face {
@@ -91,6 +90,10 @@ body {
   color: whitesmoke;
 }
 
+.nav a:hover {
+  color: #BF8D46;
+}
+
 footer {
   height: 70px;
   background-color: black;
@@ -98,4 +101,7 @@ footer {
   clear: both;
 }
 
+footer a:hover {
+  color: #BF8D46;
+}
 /*# sourceMappingURL=Photos.css.map */
